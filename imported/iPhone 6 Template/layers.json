@@ -91,31 +91,6 @@
           },
           {
             "maskFrame" : null,
-            "id" : "63CB48BD-ED6A-4CF2-809E-50E593D17396",
-            "visible" : true,
-            "children" : [
-
-            ],
-            "image" : {
-              "path" : "images\/Layer-iconShared-63CB48BD-ED6A-4CF2-809E-50E593D17396.png",
-              "frame" : {
-                "y" : 1251,
-                "x" : 341,
-                "width" : 70,
-                "height" : 76
-              }
-            },
-            "imageType" : "png",
-            "layerFrame" : {
-              "y" : 1251,
-              "x" : 341,
-              "width" : 70,
-              "height" : 76
-            },
-            "name" : "iconShared"
-          },
-          {
-            "maskFrame" : null,
             "id" : "F79F21BE-BF0C-42B6-99E2-9DAB0FA42D53",
             "visible" : true,
             "children" : [

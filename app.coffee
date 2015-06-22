@@ -3,4 +3,12 @@ sc = Framer.Importer.load "imported/iPhone 6 Template"
 
 sc.girlA.draggable.enabled = true
 
-sc.girlA.draggable.constraints = {x:150, y:150, width:300, height:300}
+sc.girlA.states.add
+	one: {x:0, y:0}
+
+sc.girlA.states.animationOptions =
+	curve: "spring(300, 12, 0)"
+
+sc.girlA.on Events.DragEnd, ->
+	sc.girlA.states.next("default")
+	
